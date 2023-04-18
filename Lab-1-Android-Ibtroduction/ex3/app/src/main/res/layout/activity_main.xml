@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/show_datetime_button"
+            android:layout_width="fill_parent"
+            android:backgroundTint="#B6B1B1"
+            android:layout_height="100px"
+            android:textColor="@color/black"
+            android:text="Xem thời gian" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="697dp"
+        android:orientation="vertical"
+        android:paddingTop="30mm"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="34dp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/datetime_textview"
+            android:layout_width="55mm"
+            android:layout_height="20mm"
+            android:layout_margin="50px"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
