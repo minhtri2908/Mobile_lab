@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/control"
+        android:icon="@drawable/ic_control"
+        android:title="Control"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/regression"
+        android:icon="@drawable/baseline_model_training_24"
+        android:title="Regression model"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/chart"
+        android:icon="@drawable/ic_chart"
+        android:title="Chart"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/dash"
+        android:icon="@drawable/ic_dash"
+        android:title="Info"
+        app:showAsAction="ifRoom" />
+
+</menu>
